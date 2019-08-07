@@ -1,0 +1,56 @@
+***********네이밍규칙*************
+1. id는 camel case로 작성한다.
+2. id에는 css속성을 넣지 않는다.(=스타일을 지정하지 않는다.)
+3. class명은 _를 사용하며 3단어 안에 끝내는 것을 권장  
+4. 레이아웃 약속어
+	#wrap | 페이지 전체 영역
+	#header | 머리글 영역
+	#container | 본문 영역
+	#content | 주요 콘텐츠 영역
+	#footer | 바닥글 영역
+	h_ | 제목
+	p_ | 문장
+	gnb_, lnb_, snb_ | 내비게이션
+	tab_ | 탭
+	btn_ | 버튼
+	bu_ | 볼릿
+	ico_ | 아이콘
+	line_ | 선
+	bg_ | 배경, 박스
+	img_ | 이미지
+	_off, _over, _on | 상태 변화
+	ad_ | 광고
+	tmp_ | 임시
+	sp_ | 스프라이트 이미지
+
+
+***********파일이름,용도**********
+<front-webApp  & frontwebApp/common> 
+
+
+index.html & style_index.css - 로그인 화면
+
+join.html & style_join.css - 회원가입 화면
+
+home.html & style_home.css - 로그인 후 보여지는 홈 화면
+
+assignment_add.html & style_assignment_add.css - 과제 추가 화면
+
+assignment.html & style.assignment.css - 과제 전부 보여주는 화면
+
+menu.html & style_menu.css - 메뉴 보여주는 화면
+
+mypage.html & style_mypage.css - 마이페이지 보여주는 화면
+
+timetable_page.html & style_timetable_page.css - 시간표 크게 보여주는 화면
+
+
+	<front-webApp/js/common> ==>> 공통적인 부분들을 js로 따로 빼놓은 파일들을 모아놓은 폴더
+
+header.js - 상단바만 따로 빼 놓은 것
+
+footer.js - 하단바만 따로 빼 놓은 것
+
+timetable.js - 시간표 테이블만 따로 빼 놓은 것
+
+func_check_input.js - 입력확인 함수만 따로 빼 놓은 것

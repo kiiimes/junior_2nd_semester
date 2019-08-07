@@ -1,0 +1,57 @@
+-- phpMyAdmin SQL Dump
+-- version 4.5.4.1deb2ubuntu2
+-- http://www.phpmyadmin.net
+--
+-- Host: localhost
+-- 생성 시간: 18-07-10 19:00
+-- 서버 버전: 5.7.22-0ubuntu0.16.04.1
+-- PHP 버전: 7.0.30-0ubuntu0.16.04.1
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8mb4 */;
+
+--
+-- 데이터베이스: `PATH`
+--
+
+-- --------------------------------------------------------
+
+--
+-- 테이블 구조 `Complete`
+--
+
+CREATE TABLE `Complete` (
+  `stuId` int(11) NOT NULL,
+  `subNo` varchar(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- 테이블의 덤프 데이터 `Complete`
+--
+
+INSERT INTO `Complete` (`stuId`, `subNo`) VALUES
+(16011008, '009063'),
+(16011008, '009067'),
+(16011008, '009789'),
+(16011008, '000304'),
+(16011008, '009489'),
+(16011016, '009789'),
+(16011016, '009799'),
+(16011016, '009066'),
+(16011016, '009956'),
+(16011016, '009955'),
+(16010960, '006279'),
+(16010960, '009799'),
+(16010960, '008377'),
+(16010960, '009058'),
+(16010960, '009066');
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
